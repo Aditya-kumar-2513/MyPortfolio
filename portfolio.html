@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,700&display=swap");
+    </style>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><h1>Aditya kumar</h1></div>
+        <div class="right">
+          <ul>
+            <a href=""><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#skills"><li>Skills</li></a>
+            <a href="#project"><li>Projects</li></a>
+            <a href="#contact"><li>Contact</li> </a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="light-blue">Aditya</span>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+        <div class="buttons">
+          <a href="updated_Resume.pdf" class="btn" download>Download Resume</a>
+          <button class="btn">Visit Github</button>
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="me.png" alt="error to load" />
+      </div>
+    </section>
+    <hr />
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <div class="about-text">
+          <p>
+            Motivated and adaptable BCA student with hands-on experience in
+            front-end development and programming. Proficient in Java, C, and
+            SQL. Strong understanding of object-oriented programming and a keen
+            interest in building responsive, user-friendly web applications.
+            Looking to contribute to innovative software development in a
+            collaborative environment.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skills-list">
+          <ul>
+            <li>💻 Java, C</li>
+            <li>🌐 HTML, CSS, JavaScript</li>
+            <li>🛢️ SQL</li>
+            <li>🧠 OOP Concepts</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="project-section" id="project">
+      <h2>Projects</h2>
+      <div class="project-container">
+        <div class="project">
+          <h3>Amazon Clone</h3>
+          <p>
+            Responsive Amazon homepage built with HTML & CSS featuring product
+            cards and grid layout.
+          </p>
+        </div>
+        <div class="project">
+          <h3>To-Do List</h3>
+          <p>
+            Dynamic to-do list built using JavaScript for adding/removing tasks.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Calculator</h3>
+          <p>Performs arithmetic operations with clean UI using JavaScript.</p>
+        </div>
+        <div class="project">
+          <h3>Age Calculator</h3>
+          <p>
+            Tool to calculate user age from date of birth input using
+            JavaScript.
+          </p>
+        </div>
+        <div class="project">
+          <h3>Tic-Tac-Toe Game</h3>
+          <p>
+            Two-player game with win condition logic and reset option in
+            JavaScript.
+          </p>
+        </div>
+      </div>
+      <hr />
+    </section>
+    <section class="contact-section" id="contact">
+      <h2>Contact</h2>
+      <div class="contact-container">
+        <div class="contact-box">
+          <p><span>Email:</span> aditya10583@gmail.com</p>
+          <p><span>Phone:</span> +91 7983149365</p>
+          <p>
+            <span>LinkedIn:</span>
+            <a
+              href="https://www.linkedin.com/in/aditya-kumar-b55b1b258/"
+              target="_blank"
+              >aditya-kumar</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 Aditya Kumar. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Front-End Developer",
+          "JavaScript Enthusiast",
+          "Web Developer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
